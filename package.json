@@ -1,0 +1,14 @@
+{
+    "name": "albedo",
+    "versions": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "alexis",
+    "license": "ISC",
+    "dependencies": {
+        "disord.js": "12.3.1"
+    },
+    "scripts": {
+        "start": "node.index.js"
+    }
+}
