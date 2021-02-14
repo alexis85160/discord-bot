@@ -6,7 +6,7 @@
     "author": "alexis",
     "license": "ISC",
     "dependencies": {
-        "discord.js": "^12.5.1",
+        "discord.js": "12.3.1",
         "package-lock.json": "^1.0.0",
         "package.json": "^2.0.1"
     },
