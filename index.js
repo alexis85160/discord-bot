@@ -318,4 +318,22 @@ bot.on("message", message => {
     }
 });
 
+bot.on("message", message =>{
+    message.delete();
+    if(message.content.startewith("=clear")){
+        if(message.member.hasPermission("MANAGE_MESSAGES")){
+
+            let args = message.content.trim().split(/ +/g);
+
+            if(args[1]){
+                if(!isNaN(args[1]) && args[1] >= 1 &args[1] <= 99){
+
+                    message.channel.bulkDelete(args[1])
+
+                }
+            }
+        }
+    }
+})
+
 bot.login(process.env.TOKEN);
