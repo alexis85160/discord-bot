@@ -318,7 +318,7 @@ bot.on("message", message => {
     }
 });
 
-bot.on("message", message =>{
+bot.on("message", message => {
     message.delete();
     if(message.content.startewith("=clear")){
         if(message.member.hasPermission("MANAGE_MESSAGES")){
