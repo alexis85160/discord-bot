@@ -318,4 +318,4 @@ bot.on("message", message => {
     }
 });
 
-client.login(process.env.TOKEN);
+bot.login(process.env.TOKEN);
