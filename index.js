@@ -211,7 +211,7 @@ bot.on("message", message => {
                         icon_url: 'https://i.pinimg.com/564x/b3/2d/5b/b32d5b6487e99e225e24c56b3fabc6fc.jpg',
                     },
                 };
-                message.channel.send({ embed });
+                message.channel.send({ 809737760201375744 });
             }
 
         if (command === "add") {
