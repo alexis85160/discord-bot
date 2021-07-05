@@ -16,21 +16,16 @@ const chalk = require('chalk');
 
   bot.on('ready', msg => {
   console.log("");                                   
-  console.log((chalk.cyan(`                                            #####                                      #####                `)));
-  console.log((chalk.cyan(`                                           #     #   ##   #        ##    ####  #    # #     # ###### #    # `)));
-  console.log((chalk.cyan(`                                           #        #  #  #       #  #  #    # #   #  #       #      ##   # `)));
-  console.log((chalk.cyan(`                                           #  #### #    # #      #    # #      ####   #  #### #####  # #  # `)));
-  console.log((chalk.cyan(`                                           #     # ###### #      ###### #      #  #   #     # #      #  # # `)));
-  console.log((chalk.cyan(`                                           #     # #    # #      #    # #    # #   #  #     # #      #   ## `)));
-  console.log((chalk.cyan(`                                            #####  #    # ###### #    #  ####  #    #  #####  ###### #    # `)));
+  console.log((chalk.cyan(`                                                                                      ____             __    `)));
+  console.log((chalk.cyan(`                                                                               ____ _/ / /_  ___  ____/ /___ `)));
+  console.log((chalk.cyan(`                                                                              / __ `/ / __ \/ _ \/ __  /  __\`)));
+  console.log((chalk.cyan(`                                                                             / /_/ / / /_/ /  __/ /_/ / /__//`)));
+  console.log((chalk.cyan(`                                                                             \__,_/_/_.___/\___/\__,_/\____/ `)));
+  console.log((chalk.cyan(`                                                                                                             `)));
   console.log("");                                  
-  console.log((chalk.yellow(`                                                               Crée par GalackQSM#0895 !`)));  
-  console.log((chalk.yellow(`                                                                © 2020 GalackQSM, Inc.`))); 
+  console.log((chalk.yellow(`                                                               Crée par Alexis_#9146 !`)));  
   console.log("");                                   
-  console.log((chalk.red(`                                                         Discord: https://discord.gg/cGt8e7YPfX`)));   
-  console.log((chalk.red(`                                                       Twitter: https://twitter.com/Galack_QSM`)));   
-  console.log((chalk.red(`                                                        Github: https://github.com/GalackQSM`)));   
-  console.log((chalk.red(`                                                        Youtube: https://youtube.com/GalackQSM`)));   
+ 
   console.log("");                                  
 
   console.log(`Statistiques globales : \n\nLe bot a un total de ${bot.guilds.cache.size} serveurs. \nPour un total de ${bot.users.cache.size} membres.`)
