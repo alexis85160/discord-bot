@@ -16,14 +16,27 @@ const chalk = require('chalk');
 
   bot.on('ready', msg => {
   console.log("");                                   
-  console.log((chalk.cyan(`                                                                                      ____             __    `)));
-  console.log((chalk.cyan(`                                                                               ____ _/ / /_  ___  ____/ /___ `)));
-  console.log((chalk.cyan(`                                                                              /    `/ /    \/ _ \/     /    \`)));
-  console.log((chalk.cyan(`                                                                             /     / /     /   //     / / / /`)));
-  console.log((chalk.cyan(`                                                                             \__,_/_/_.___/\___/\__,_/\____/ `)));
-  console.log((chalk.cyan(`                                                                                                             `)));
+  console.log((chalk.cyan(`                                                                                                      `)));
+  console.log((chalk.cyan(`                         bbbbbbbb                                            dddddddd                 `)));
+  console.log((chalk.cyan(`                  lllllllb::::::b                                            d::::::d                 `)));
+  console.log((chalk.cyan(`                  l:::::lb::::::b                                            d::::::d                 `)));
+  console.log((chalk.cyan(`                  l:::::lb::::::b                                            d::::::d                 `)));
+  console.log((chalk.cyan(`                  l:::::l b:::::b                                            d:::::d                  `)));
+  console.log((chalk.cyan(`  aaaaaaaaaaaaa    l::::l b:::::bbbbbbbbb        eeeeeeeeeeee        ddddddddd:::::d    ooooooooooo   `)));
+  console.log((chalk.cyan(`  a::::::::::::a   l::::l b::::::::::::::bb    ee::::::::::::ee    dd::::::::::::::d  oo:::::::::::oo `)));
+  console.log((chalk.cyan(`  aaaaaaaaa:::::a  l::::l b::::::::::::::::b  e::::::eeeee:::::ee d::::::::::::::::d o:::::::::::::::o`)));
+  console.log((chalk.cyan(`           a::::a  l::::l b:::::bbbbb:::::::be::::::e     e:::::ed:::::::ddddd:::::d o:::::ooooo:::::o`)));
+  console.log((chalk.cyan(`    aaaaaaa:::::a  l::::l b:::::b    b::::::be:::::::eeeee::::::ed::::::d    d:::::d o::::o     o::::o`)));
+  console.log((chalk.cyan(`  aa::::::::::::a  l::::l b:::::b     b:::::be:::::::::::::::::e d:::::d     d:::::d o::::o     o::::o`)));
+  console.log((chalk.cyan(` a::::aaaa::::::a  l::::l b:::::b     b:::::be::::::eeeeeeeeeee  d:::::d     d:::::d o::::o     o::::o`)));
+  console.log((chalk.cyan(`a::::a    a:::::a  l::::l b:::::b     b:::::be:::::::e           d:::::d     d:::::d o::::o     o::::o`)));
+  console.log((chalk.cyan(`a::::a    a:::::a l::::::lb:::::bbbbbb::::::be::::::::e          d::::::ddddd::::::ddo:::::ooooo:::::o`)));
+  console.log((chalk.cyan(`a:::::aaaa::::::a l::::::lb::::::::::::::::b  e::::::::eeeeeeee   d:::::::::::::::::do:::::::::::::::o`)));
+  console.log((chalk.cyan(` a::::::::::aa:::al::::::lb:::::::::::::::b    ee:::::::::::::e    d:::::::::ddd::::d oo:::::::::::oo `)));
+  console.log((chalk.cyan(`  aaaaaaaaaa  aaaallllllllbbbbbbbbbbbbbbbb       eeeeeeeeeeeeee     ddddddddd   ddddd   ooooooooooo   `)));
+  console.log((chalk.cyan(`                                                                                                      `)));
   console.log("");                                  
-  console.log((chalk.yellow(`                                                               Crée par Alexis_#9146 !`)));  
+  console.log((chalk.yellow(`                                       Crée par Alexis_#9146 !`)));  
   console.log("");                                   
  
   console.log("");                                  
